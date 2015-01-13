@@ -20,11 +20,6 @@ TARGET_OTA_ASSERT_DEVICE := trltevzw,SM-N910V
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_trlte_vzw_defconfig
 
-# Init
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/trltevzw/init/init_trlte.c
-TARGET_UNIFIED_DEVICE := true
-
 # Radio
 BOARD_RIL_CLASS := ../../../device/samsung/trltevzw/ril
 
